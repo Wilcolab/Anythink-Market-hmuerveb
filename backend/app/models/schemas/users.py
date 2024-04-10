@@ -25,6 +25,7 @@ class UserInUpdate(BaseModel):
 
 class UserWithToken(User):
     token: str
+    is_verified: bool
 
 
 class UserInResponse(RWSchema):
